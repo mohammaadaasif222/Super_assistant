@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  background: rgba(240, 235, 248, 255) !important;
+  font-family: "docs-Roboto", Helvetica, Arial, sans-serif;
+}
+
+.headings {
+  font-size: 24pt;
+  letter-spacing: 0;
+  font-weight: 400 !important;
+}
+.content {
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 24px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+}
+.bg-white {
+  background-color: #fff;
+  border: 1px solid #dadce0;
+}
+hr {
+  width: 100%;
+  position: absolute !important;
+  left: 0 !important;
+}
+.bold-email {
+  font-weight: 700;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+.para {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  margin-top: 12px;
+}
+.indecator {
+  margin-top: 3rem;
+  color: red;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+.title {
+  line-height: 24px;
+  color: #202124;
+  font-weight: 400;
+}
+[name^="option"] {
+  width: 20px;
+  height: 20px;
+  padding: 1rem 0;
+}
+[name^="row1"] {
+  width: 20px;
+  height: 20px;
+  padding: 1rem 0;
+}
+[name^="row2"] {
+  width: 20px;
+  height: 20px;
+  padding: 1rem 0;
+}
+[name^="row3"] {
+  width: 20px;
+  height: 20px;
+  padding: 1rem 0;
+}
+
+.input-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+label {
+  padding-left: 1rem;
+}
+.input-style {
+  width: 50%;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid;
+}
+.drop_down {
+  padding: .8rem;
+  width: 30%;
+  border-color: rgba(214, 214, 214, 0.393);
+}
+
+.progress{
+  --bs-progress-height: .5rem !important;
+  --bs-progress-width: .5rem !important;
+}
+
+.btn-purple{
+  color: rgb(103, 58, 183) !important
+}
+.bg-purple{
+  background-color: rgb(103, 58, 183) !important;
+  color: #fff !important;
+}
+.footer-p{
+  font-family: Roboto,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: .3px;
+  line-height: 16px;
+  color: #70757a;
+  color: rgba(0,0,0,0.66);
+  margin-top: 8px;
+}

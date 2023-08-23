@@ -1,0 +1,13 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.top-purple {
+  background-color: rgb(103, 58, 183);;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 10px;
+
+  width: calc(100% + 2px)
+}
